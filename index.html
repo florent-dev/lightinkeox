@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INKEOX</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #4e77d1;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+        .github {
+            text-align: center;
+            color: #4e77d1;
+            text-decoration: none;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        .title-date {
+            background-color: #4e77d1;
+            color: #fff;
+            font-size: 1.2em;
+            padding: 10px 20px;
+        }
+        .card-content {
+            padding: 5px 20px;
+        }
+        .period {
+            margin-bottom: 20px;
+            color: #888;
+        }
+        .period:before {
+            content: 'Période : ';
+        }
+        .project-image {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .project-description {
+            color: #555;
+            line-height: 1.5;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="personal">
+        <h1>Projets personnels</h1>
+
+        <div class="card">
+            <div class="title-date">Développement d'un inventaire en Angular & Symfony</div>
+            <div class="card-content">
+                <p class="period">2024-aujourd'hui</p>
+                <p class="project-description">Inventaire pour gérer efficacement un stock à destination d'artisans, PME, TPE. La partie front est en Angular et le back en Symfony + avec une base de données Postgresql.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="title-date">INKEOX</div>
+            <div class="card-content">
+                <p class="period">2020-aujourd'hui</p>
+                <p class="project-description">Mon labo' personnel pour mettre en ligne des projets personnels et faire divers tests.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="title-date">Développement d'un bot Discord en NodeJS</div>
+            <div class="card-content">
+                <p class="period">2020-aujourd'hui</p>
+
+                <a href="lee.png" target="_blank">
+                    <img src="lee.png" alt="Bot Discord" class="project-image">
+                </a>
+                <p class="project-description">Classement basé sur l'activité des membres, système d'anniversaires, horoscope et autres commandes divertissantes.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="title-date">Administrateur d'un serveur de jeu</div>
+            <div class="card-content">
+                <p class="period">2015-2017</p>
+                <a href="forumever.png" target="_blank">
+                    <img src="forumever.png" alt="Plateforme de jeux" class="project-image">
+                </a>
+                <p class="project-description">Développement d'un forum et d'outils internes (support, micro-paiements, statistiques) en PHP avec une base de données MySQL et développement de fonctionnalités sur la source Python du jeu.</p>
+            </div>
+        </div>
+
+        <div class="github">
+            <a href="https://github.com/florent-dev" target="_blank">Github : @florent-dev</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
